@@ -250,7 +250,7 @@
         "action": "",
         "pretty": false,
         "x": 650,
-        "y": 280,
+        "y": 240,
         "wires": [
             [
                 "f3cc7447b3db26a5"
@@ -271,7 +271,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 850,
-        "y": 280,
+        "y": 240,
         "wires": []
     },
     {
@@ -289,7 +289,7 @@
         "authType": "",
         "senderr": false,
         "x": 440,
-        "y": 280,
+        "y": 240,
         "wires": [
             [
                 "03e752c664e4f759",
@@ -319,7 +319,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 210,
-        "y": 280,
+        "y": 240,
         "wires": [
             [
                 "cd20b509d2dcc256"
@@ -340,7 +340,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 850,
-        "y": 160,
+        "y": 120,
         "wires": []
     },
     {
