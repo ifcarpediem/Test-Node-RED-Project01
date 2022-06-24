@@ -16,6 +16,14 @@
         "env": []
     },
     {
+        "id": "6489a2cb3eae05ca",
+        "type": "tab",
+        "label": "流程 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "df615336d9595e42",
         "type": "ui_tab",
         "name": "TAB",
@@ -332,6 +340,51 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 850,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "605109bd39811b9d",
+        "type": "inject",
+        "z": "6489a2cb3eae05ca",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 160,
+        "wires": [
+            [
+                "5e7ccd9e162cd446"
+            ]
+        ]
+    },
+    {
+        "id": "5e7ccd9e162cd446",
+        "type": "debug",
+        "z": "6489a2cb3eae05ca",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
         "y": 160,
         "wires": []
     }
